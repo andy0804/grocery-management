@@ -1,0 +1,31 @@
+/*tablet*/
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .container {
+    margin-top: 11rem !important;
+  }
+  input {
+    padding: 5px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*mobile*/
+@media (max-width: 500px) {
+  .container {
+    margin-top: 11rem !important;
+  }
+  input {
+    padding: 5px;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+}
